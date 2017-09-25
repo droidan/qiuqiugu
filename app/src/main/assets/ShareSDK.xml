@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+
+    <ShareSDK AppKey="1a57ac683963f" />
+
+    <SinaWeibo AppKey="568898243" AppSecret="38a4f8204cc784f81f9f0daaf31e02e3" Enable="true" Id="1"
+        RedirectUrl="http://www.sharesdk.cn" ShareByAppClient="true" SortId="1" />
+
+    <QQ AppId="1105918756" AppKey="er6RKhC7ebAV6DCN" Enable="true"
+        Id="2" ShareByAppClient="true" SortId="2" />
+
+    <QZone AppId="1105918756" AppKey="er6RKhC7ebAV6DCN" Enable="true"
+        Id="3" SortId="3" />
+
+    <Wechat AppId="wx10d8daaeb8f40b04" AppSecret="9723327709b785ff5c36f59c79d41b9c"
+        BypassApproval="false" Enable="true" Id="4" SortId="4" />
+
+    <WechatMoments AppId="wx10d8daaeb8f40b04" AppSecret="9723327709b785ff5c36f59c79d41b9c"
+        BypassApproval="false" Enable="true" Id="5" SortId="5" />
+
+    <WechatFavorite AppId="wx10d8daaeb8f40b04" AppSecret="9723327709b785ff5c36f59c79d41b9c"
+        Enable="true" Id="6" SortId="6" />
+
+</DevInfor>

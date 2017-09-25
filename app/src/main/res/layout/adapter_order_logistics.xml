@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff">
+
+    <RelativeLayout
+        android:id="@+id/rx_yy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x100">
+
+        <TextView
+            android:id="@+id/tx_logistics_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y20"
+            android:lineSpacingExtra="@dimen/y5"
+            android:textColor="@color/color_838383"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/tx_logistics_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx_logistics_info"
+            android:layout_below="@+id/tx_logistics_info"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20"
+            android:text="2016-10-06 09:00"
+            android:textColor="@color/color_838383"
+            android:textSize="11dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_alignLeft="@+id/tx_logistics_info"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_line" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_xx"
+        android:layout_width="@dimen/x100"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rx_yy"
+        android:layout_alignParentTop="true">
+
+        <View
+            android:id="@+id/view_top_line"
+            android:layout_width="@dimen/x1"
+            android:layout_height="@dimen/y30"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_b7b7b7" />
+
+        <ImageView
+            android:id="@+id/im_logistics_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_top_line"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:id="@+id/view_bottom_line"
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/im_logistics_status"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_b7b7b7" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

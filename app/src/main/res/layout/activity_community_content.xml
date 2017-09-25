@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_efefef"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue"
+        android:theme="@style/AppTheme.ActionBar" />
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_submit_comment"
+        android:layout_below="@+id/toolbar"
+        app:overlay="true"
+        app:wave_color="@color/txheme_color"
+        app:wave_height_type="normal"
+        app:wave_show="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.cjj.MaterialRefreshLayout>
+
+    <Button
+        android:id="@+id/bt_submit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_ffffff"
+        android:text="发表评论"
+        android:textColor="@color/tab_theme_color" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_efefef"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue"
+        android:theme="@style/AppTheme.ActionBar" />
+
+    <ImageView
+        android:layout_width="@dimen/y200"
+        android:layout_height="@dimen/y200"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y70"
+        android:background="@mipmap/logo"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:textSize="15dp"
+        android:layout_marginTop="@dimen/y40"
+        android:lineSpacingExtra="@dimen/y8"
+        android:text="        丘丘谷由杭州丘丘谷电子商务有限公司于2016年创建，主要专注健康、有机农副产品，通过农业电商、众筹、家庭农场、生态旅游等产品线开发，打造顺势生长的智慧生态农业平台。公司以有机农产品的生产和销售为核心，以让更多人享受健康优质农产品为契机；并以开发自有基地的深度服务，提供养生、旅游、培训等个性化定制产品；更创造了“互联网+农业+服务+金融”的全新生活方式。" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y100"
+        android:text="Copyright ©2016-2020" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="杭州丘丘谷电子商务有限公司" />
+
+</LinearLayout>

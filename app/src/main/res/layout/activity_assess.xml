@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_efefef"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue"
+        android:theme="@style/AppTheme.ActionBar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_menu"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/color_efefef" />
+
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ffffff">
+
+            <TextView
+                android:id="@+id/tx_xxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x20"
+                android:text="物流评价" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/mb_start"
+                style="@style/Widget.MaterialRatingBar.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/x20"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:rating="5"
+                app:mrb_progressTint="#EB0008"
+                app:mrb_secondaryProgressTint="@color/color_dddddd" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_dddddd" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_sc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ffffff">
+
+            <CheckBox
+                android:id="@+id/cb_select"
+                android:layout_width="@dimen/x45"
+                android:layout_height="@dimen/x45"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x30"
+                android:background="@drawable/selector_checkbox"
+                android:button="@null"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/tx_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_toRightOf="@+id/cb_select"
+                android:text="匿名" />
+
+            <Button
+                android:id="@+id/bt_submit"
+                android:layout_width="@dimen/x180"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/tab_theme_color"
+                android:text="提交"
+                android:textColor="@color/color_ffffff" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

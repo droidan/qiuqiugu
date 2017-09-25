@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y500">
+
+        <RelativeLayout
+            android:id="@+id/rl_xx"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="支付方式" />
+
+            <ImageView
+                android:id="@+id/im_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x20"
+                android:src="@mipmap/cancel_comment" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/x20"
+                android:background="@color/color_line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_zaixian"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:layout_below="@+id/rl_xx">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x20"
+                android:text="在线支付"
+                android:textSize="17dp" />
+
+            <CheckBox
+                android:id="@+id/cb_zaixian"
+                android:layout_width="@dimen/x45"
+                android:layout_height="@dimen/x45"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x20"
+                android:background="@drawable/selector_checkbox"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="false" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/x20"
+                android:background="@color/color_line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_huodao"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:layout_below="@+id/rl_zaixian">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x20"
+                android:text="货到付款"
+                android:textSize="17dp" />
+
+            <CheckBox
+                android:id="@+id/cb_huodao"
+                android:layout_width="@dimen/x45"
+                android:layout_height="@dimen/x45"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x20"
+                android:background="@drawable/selector_checkbox"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="false" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:layout_alignParentBottom="true"
+            android:background="@color/theme_color"
+            android:text="确定"
+            android:textColor="@color/color_ffffff"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

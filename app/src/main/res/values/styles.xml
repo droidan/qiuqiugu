@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_ffffff</item>
+        <item name="colorPrimaryDark">@color/color_ffffff</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionMenuTextColor">@color/theme_color</item>
+    </style>
+    `
+
+    <style name="actionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionMenuTextColor">@color/theme_color</item>
+    </style>
+
+    <style name="customTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarTheme">@style/actionBarTheme</item>
+    </style>
+
+    <!--支持ToolBar的设置-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/color_ffffff</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="android:textColorPrimary">@color/color_313131</item>
+        <item name="colorAccent">@color/txheme_color</item>
+        <item name="android:windowBackground">@color/color_efefef</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme.Base">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/color_ffffff</item>
+    </style>
+
+    <style name="social_pop_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar" parent="android:Widget.RatingBar">
+        <!--
+        Disabled for correct behavior on Android 4.x, see
+        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
+        <item name="android:progressDrawable">@null</item>
+        -->
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">26dp</item>
+        <item name="android:maxHeight">26dp</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Small">
+        <item name="android:minHeight">18dp</item>
+        <item name="android:maxHeight">18dp</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Indicator">
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Indicator.Small">
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+    <style name="Dialog_Fullscreen" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/color_ffffff</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/tab_theme_color</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/color_3a3a3a</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/color_dddddd</item>
+    </style>
+
+    <style name="EditStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@color/color_adadad</item>
+        <item name="android:textColor">@color/color_adadad</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="EditTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/x20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_232323</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    // style="?android:attr/borderlessButtonStyle"
+
+    <style name="ThemeButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <!--style="?android:attr/borderlessButtonStyle"-->
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/color_ffffff</item>
+        <item name="android:layout_marginLeft">@dimen/x40</item>
+        <item name="android:layout_marginRight">@dimen/x40</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/y80</item>
+        <item name="android:background">@drawable/bt_theme_shape</item>
+    </style>
+
+    <style name="DialogTransparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="CustomLoadingDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">加载中…</item>
+        <item name="DialogSpotColor">@color/theme_color</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_toolbar">#52bff1</color>
+    <color name="theme_color">#33bc60</color>
+    <color name="txheme_color">#4033bc60</color>
+    <color name="theme_colornormal">#fc565555</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_60000000">#60ffffff</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="color_aeaeae">#aeaeae</color>
+    <color name="color_232323">#232323</color>
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="name_selector_color">#cccccc</color>
+    
+    <color name="color_line">#d7d7d7</color>
+    <color name="color_adadad">#adadad</color>
+    <color name="color_b9b9b9">#b9b9b9</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_838383">#838383</color>
+    <color name="color_3f3f3f">#3f3f3f</color>
+    <color name="color_343434">#343434</color>
+    <color name="color_3e3e3e">#3e3e3e</color>
+    <color name="color_ababab">#ababab</color>
+    <color name="color_b7b7b7">#b7b7b7</color>
+    <color name="color_313131">#313131</color>
+
+    //----------------
+    <color name="color_f43c3c">#f43c3c</color>
+    <color name="tab_theme_color">#35ba61</color>
+    <color name="color_efefef">#efefef</color>
+    <color name="color_3a3a3a">#3a3a3a</color>
+    <color name="color_cdcdcd">#cdcdcd</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_5f5f5f">#5f5f5f</color>
+    <color name="color_646464">#646464</color>
+    <color name="color_2474a6">#2474a6</color>
+    <color name="color_025720">#025720</color>
+    <color name="color_353535">#353535</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_b8b8b8">#b8b8b8</color>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_efefef"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue"
+        android:theme="@style/AppTheme.ActionBar" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_sc"
+        android:divider="@null"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/color_efefef" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_sc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/color_ffffff">
+
+        <include
+            layout="@layout/include_space_line_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true" />
+
+        <CheckBox
+            android:id="@+id/cb_select"
+            android:layout_width="@dimen/x45"
+            android:layout_height="@dimen/x45"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/selector_checkbox"
+            android:button="@null"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tx_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_toRightOf="@+id/cb_select"
+            android:text="全选"
+            android:textColor="@color/color_333333" />
+
+        <TextView
+            android:id="@+id/tx_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_toRightOf="@+id/tx_select_all"
+            android:text="合计："
+            android:textColor="@color/color_5f5f5f" />
+
+        <TextView
+            android:id="@+id/tx_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_toRightOf="@+id/tx_num"
+            android:textColor="@color/color_f43c3c" />
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="@dimen/x225"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/tab_theme_color"
+            android:text="结算"
+            android:textColor="@color/color_ffffff" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/im_null_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/shopping_cart_is_empty" />
+
+</RelativeLayout>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-Wechat-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9e12f2d8a6f01dce27c65ce3b93bccd46e7ffd4">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-Wechat-2.7.10_c25acccf786a3ace3994d3f381bc05d8aa2c3d83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_a049ae5dbe1f2fdeed4218201b05e70c77a8c299/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.14.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b881010e06dc39be15b7465cd16492eedbab246f">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.14.1_b4aaca19135fa617d6d241b3a2fe83aca6be8a13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-java/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2c4c6b4050581aaf0d4b7dce87859e946a4a369b">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-java-0.7.5_3c6385efb43c406b581bd12aff8e79a5374113cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-26.0.0-alpha1_42e30faf70e3160ada89c75c5740838895201ebd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.8.0_3c939aa930bb1de9dd32fa575a2cf12ed6977a3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.14.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8795af3e130206443f2d5ed45f1b26067aff70dc">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.14.1_b9d65c6e8bb34ff08c5871ebc454a54ef2df79b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-Wechat-Favorite-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f30192f55e1113b13b6ac5204bbcc19e203b4160">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-Wechat-Favorite-2.7.10_c15876c446e9d3e39e5c42ff15c368fdc3c9c3b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-26.0.0-alpha1_d85e4d301cc884f47813dcce9c11d8085744eda0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.cjj.materialrefeshlayout/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="597d857fe9b090c4582f0855a2c6d6cc45fec544">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.cjj.materialrefeshlayout-library-1.3.0_9826f0a22e9a5585da7665089807bf19d27f39d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-Wechat-Moments-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8357a3810c2e5bbb6274042a1508bac87759c5f">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-Wechat-Moments-2.7.10_d15e094c745c1a41783e2358d4002e8ff803b0b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions/rxpermissions/0.9.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38115c69562d4087564afb177e2a971aa95a1a46">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.tbruyelle.rxpermissions-rxpermissions-0.9.1_7670106f4784c492166c884074487102650bc4d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-26.0.0-alpha1_32987ccd995daae44c38e10964d09e3fcdb9536b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-exo/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8af48bc8fee42f0b2b012c384937326979695288">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-exo-0.7.5_c9300a32e41b0276106203a323c9a1da11bf9896/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-26.0.0-alpha1_1a68a594151d0d0bed4f07f0d236b9fa63ec6feb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/me.iwf.photopicker/PhotoPicker/0.9.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="158bd4ae15436b1649ca51808287f4540e8bf9ad">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.iwf.photopicker-PhotoPicker-0.9.0_e82515210bcd696af2bb63e242c2d93359e2cd7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-26.0.0-alpha1_b39de777ff29039f6dc33ebe5c44b47cb8ec2f63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-26.0.0-alpha1_4404c2f9f4effa953175d3e5134ae5db8f93cbc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getkeepsafe.relinker-relinker-1.2.2_be5838d7b03813cf87af8b632389334f52a616d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-26.0.0-alpha1_f88aac63d65763c0b1cefeb5c5a0ccdb1b552951/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-SinaWeibo-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="52574245a489f42699687ba9038c8c803a8e8bcf">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-SinaWeibo-2.7.10_0837b3ceb917cc376e856e6d086389dd8b63e37d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-armv7a/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dce0ad26afe74d3141679342ae1a9b2ae994bc94">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-armv7a-0.7.5_860a3dab761ffde1860d04b3bc3fe20b80e24d66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.2_f5ba2012fe00185d166dae3696c898a65e33a6ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-26.0.0-alpha1_d6435f9e4fa3f8873864d8307f996a0318cef1b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r1.5.11/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a919fdfb7808ff27b33e6e84ec990478abc9cf1">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.exoplayer-exoplayer-r1.5.11_6d2b581d16be2b6eb4e89791e5956c85d3196ac0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/MobTools-2016.1107.1809.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51ab3d9199c3df198ba8fedb2916027f283676d6">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/MobTools-2016.1107.1809_cebd528d6383602d2e2bcaf8480d59eb90274f9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.14.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf5e2940501f8f7b9175df6491cebb84f5690f14">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.14.1_79d37b425d6d85fc28f76806fbaac2da4b06ab44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-26.0.0-alpha1_bbd07ebcc9fd568c108f9c199306a728b250ecf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_6425752afbd69b631b6be3b3e79d0af2876a486e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/me.zhanghai.android.materialratingbar/library/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0778b635a29c162f2ac3646a856f570529bad6c2">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.zhanghai.android.materialratingbar-library-1.0.2_3c56d681b67f90812843fce55ba6ef8ce65e28e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.baoyz.swipemenulistview-library-1.3.0_1eb2771db6981fc03a12ca0792af463968e4935d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d16c820d6943f6bbfe74699ca2ce2ad4dd44829e">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-2.2.1_c58264dfd16c16e45bd527a6dacaf924fc35cac3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbaffbfc2a42fce3718dc9f52182810ad332b0ec">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.makeramen-roundedimageview-2.3.0_7edf90facedc3f45d626d671723e95fa9af96676/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/alipaySingle-20161222.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="795c38473dc8c277a8a07694592e13d7e7601108">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/alipaySingle-20161222_147dab4a318d75775934287440af42541aa0dcb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_8db89536be79b09cbbc73a32fefa6b2a3d80a1d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-Core-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7e5f9da3635eb8d89b8a9a22cd68cd64cca9104">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-Core-2.7.10_f37efefe62f5e0953e74310c1e0548e312062fed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-26.0.0-alpha1_83a8bc808eaf551af6e0313d0455d54719ecc3e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/me.relex/photodraweeview/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="85ba4b204e5ee55b4e5e8995c5d143447b851fb4">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.relex-photodraweeview-1.1.2_b950360b6f2b8ffa755a627056764d52a35faa41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v4/1.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7dc4e0ea5b06183f6b32f08c5db6bcb6ef79c02a">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.ogaclejapan.smarttablayout-utils-v4-1.6.1_f5918ad8e55a7e3fb344fed03da03d335057d634/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_f7a556629ddb5b2fa54dca390f805278b8179ffe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-arm64/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9ee57bc995c0b175209da9926db09e74907dd06">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-arm64-0.7.5_69ab1ca19679750bc1aa4b3ec3377f5511a2dac4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.14.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c77602d43223db798b1ca56cf307ab0ee3c0e63f">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.14.1_794d0662b6518a1c7354c9080c1d63f660ca4be4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-QZone-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="158eb0f8525584008bfc92c2c6a4841174133a0a">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-QZone-2.7.10_b0e5e79b307bc2b00ad6ee1141cc03cb1e6434d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/bdocreadersdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0c4d0effba637388afa3a77070b57c1ea94e2f7a">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/bdocreadersdk_085d0b4fa68b3a7be1a44476556d436f252e6683/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-x86/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d50c72287ef54a1e8933aef98cc4e8835396f1ca">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-x86-0.7.5_5c53a4186292d8d6455f2657185bc29bfdef4835/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-26.0.0-alpha1_6c8e1202e71d78fd0cdf50cf84a041ab97e9c056/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-x86_64/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4dc67cc5795d550bbd96f476cd7978c7cf2447f9">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-x86_64-0.7.5_9c2b8c59f306aa8eba12abeac670816494526edf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_bcd0a26f5ece666ee2ea7dbb43c7bfcf2fbc595b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-26.0.0-alpha1_bcddd41c6a7f8bec5c9ea81d56000f7c097e19de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_9c668d1e07d3978248564b6e5145613be6d9a200/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_a5582db9767e2b3b5d22ddc9585f8316fae2525f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/Gu/medialibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a439048bc9f74a093a4fbe9bfe492db3b609e62b">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/4/Gu-medialibrary-unspecified_620aea82ef2a34318b3134b5759edccd274d343d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_bbc7d3d08a4bec066fc77e97fdcf06b2f0572835/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-armv5/0.7.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dec533dfa5ce397bc17626130c13735798faa0e3">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/tv.danmaku.ijk.media-ijkplayer-armv5-0.7.5_2e1933d5b3b9793065e0321e65b3fe0851d83c2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d16ffcc50b1dfa726cf978ea9f0a949cdd70e7d">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.ogaclejapan.smarttablayout-library-1.6.1_cb4a011710799332cfc31f9febd330d2985fcea0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby/mvp-common/2.0.1/d75c9c5577143f3cf3fd63f61526a551f910b56f/mvp-common-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/mvp-common-2.0.1_5c1923aab103cb97e405f388a4f52bfc7b50df24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-QQ-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5d3ffc9c4c2743fcc83b3333f77fc252fb146889">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-QQ-2.7.10_b2cbcd85bfbed5144138ab8d667fdb0a197495e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.2.1/3095c5145d7966e555c113c6a3fc33a107badc80/realm-annotations-2.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3095c5145d7966e555c113c6a3fc33a107badc80">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.2.1_f11d211023e51b54884bdbfa67b93963b8136d77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/mvp/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8d5f68a8fdd8283ea42b20259ae4adad9cbe5e94">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-mvp-2.0.1_78bac9fc5a5a9891d56a949fcee8f3b75940fcc6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.zhy/flowlayout-lib/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fdaede6c3d2da36ba042f9db05a60d303e04045f">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.zhy-flowlayout-lib-1.0.3_ccff6c28689540d84bee80bf0d3457587938a793/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.14.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5bf70f3683146e4875c006624543cb0a13eac91">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.14.1_d27832071866bfd69a213efb2fe0df3a54242339/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/id.zelory/compressor/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3a724d5d031884220bae4a255f6d2763cd0ebdc4">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/id.zelory-compressor-1.0.4_1e78f29e43253e0853fb01a34e251cfd27627f48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.blankj/utilcode/1.3.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67d5a9b53bf1769128c99b25add3bc0b90576f05">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.blankj-utilcode-1.3.4_907d6960bc0a26629db383a691c5d75db56fa9b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_0eef28fb7478389e2e33b260cc32040b1131d1b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.github.d-max/spots-dialog/0.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf94678214d9ab43a8deb5df90d0b3e6d619ff1e">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.d-max-spots-dialog-0.7_6f9a50497d8f90c899ba4b1c2bb9cbecac5cb4ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_8df9ff1edd3569edb7a3b6592fdf8221d94f9e04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/viewstate/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="66898369cdbdcd732d7b0143aa12010cf4814005">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-viewstate-2.0.1_a4328e6b457cfd9ba6a64f2cd9f3127ed1419db8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/libammsdk_ba0af05e09c8e1b5fd2f79251f1d85b222c15344/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/MobCommons-2016.1107.1809.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="978446ee83b82106e7d859832e4e3440101bda5a">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/MobCommons-2016.1107.1809_ff9b863c19d75ebcf28a856a376f155863cf5b0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/libs/ShareSDK-Wechat-Core-2.7.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a720ef31ac89904b603fb2a27c01bb21a951fcad">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-Wechat-Core-2.7.10_941472af39ef6ff2a19fca17a36cd8d5ad4d860a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_1c4d3787a0cf582e25869e30eb734f6186ee36a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/exploded-aar/me.relex/circleindicator/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="/Users/xinma/Documents/work/code/Android/Gu/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.relex-circleindicator-1.2.2_2d25f05ebe455ae8ca24927c9c3ac6d053896783/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/im_porduct_thumb"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y112"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginTop="@dimen/y20"
+        android:scaleType="centerCrop"
+        fresco:failureImage="@mipmap/bg_default_fail"
+        fresco:failureImageScaleType="centerInside"
+        fresco:placeholderImage="@mipmap/bg_default"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:progressBarImage="@mipmap/bg_default" />
+
+    <TextView
+        android:id="@+id/tx_porduct_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/y13"
+        android:layout_toRightOf="@+id/im_porduct_thumb"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/tx_porduct_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im_porduct_thumb"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_toRightOf="@+id/im_porduct_thumb"
+        android:text="$123.55"
+        android:textColor="@color/color_f43c3c"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/tx_porduct_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im_porduct_thumb"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/tx_porduct_name"
+        android:layout_marginRight="@dimen/x20"
+        android:textColor="@color/color_646464"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im_porduct_thumb"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_toLeftOf="@+id/tx_porduct_num"
+        android:text="数量"
+        android:textColor="@color/color_cdcdcd"
+        android:textSize="11dp" />
+
+    <View
+        android:layout_marginTop="@dimen/y20"
+        android:layout_below="@+id/im_porduct_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_dddddd" />
+
+</RelativeLayout>

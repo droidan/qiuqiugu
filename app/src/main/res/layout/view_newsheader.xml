@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y368"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <com.tiger.socol.gu.views.widgets.slideview.SliderLayout
+        android:id="@+id/news_header_slider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y368"
+        grid:auto_cycle="false"
+        grid:pager_animation_span="100" />
+
+</LinearLayout>

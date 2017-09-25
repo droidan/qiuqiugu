@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.ActionBar"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue" />
+
+    <EditText
+        android:id="@+id/ed_content"
+        android:textSize="15sp"
+        android:gravity="left|top"
+        android:hint="分享新事物..."
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y300" />
+
+    <com.tiger.socol.gu.views.widgets.MultiImageView
+        android:id="@+id/miv_select_images"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/x30"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

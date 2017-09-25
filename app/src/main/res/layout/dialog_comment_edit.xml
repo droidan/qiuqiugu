@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y450"
+    android:background="@color/color_f8f8f8"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="20dp">
+
+    <RelativeLayout
+        android:id="@+id/rr_x"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y60"
+        android:background="@color/color_f8f8f8">
+
+        <Button
+            android:id="@+id/bt_cancle"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginTop="@dimen/y20"
+            android:background="@mipmap/cancel_comment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发表评论"
+            android:textColor="@color/color_353535" />
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x20"
+            android:layout_marginTop="@dimen/y20"
+            android:background="@mipmap/confirmt" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/ed_comment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_below="@+id/rr_x"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/x20"
+        android:background="@drawable/bg_edittext"
+        android:gravity="top|left"
+        android:hint="请输入评论内容(最多为50字)"
+        android:padding="@dimen/x10"
+        android:textColor="@color/color_3a3a3a"
+        android:textColorHint="@color/color_b8b8b8"
+        android:textSize="13dp" />
+
+</RelativeLayout>

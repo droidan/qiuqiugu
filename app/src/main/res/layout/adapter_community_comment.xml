@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/im_user_avatar"
+        android:layout_width="@dimen/x80"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginTop="@dimen/y20"
+        android:background="@color/color_dddddd"
+        app:riv_corner_radius="@dimen/x40"
+        app:riv_mutate_background="true" />
+
+    <TextView
+        android:id="@+id/tx_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/im_user_avatar"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_toRightOf="@+id/im_user_avatar"
+        android:textColor="@color/color_025720"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx_comment_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/im_user_avatar"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_toRightOf="@+id/tx_user_name"
+        android:text="回复"
+        android:textColor="@color/default_clickable_color" />
+
+    <TextView
+        android:id="@+id/tx_comment_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/im_user_avatar"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_toRightOf="@+id/tx_comment_x"
+        android:textColor="@color/color_025720"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx_comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tx_user_name"
+        android:layout_below="@+id/tx_user_name"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/y20"
+        android:lineSpacingExtra="@dimen/y5" />
+
+    <TextView
+        android:id="@+id/tx_comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tx_user_name"
+        android:layout_below="@+id/tx_comment_content"
+        android:layout_marginBottom="@dimen/y20"
+        android:layout_marginTop="@dimen/y20"
+        android:text="一分钟前" />
+
+    <Button
+        android:id="@+id/bt_reply"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tx_comment_content"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/y20"
+        android:background="@drawable/bt_menux_shape"
+        android:text="回复"
+        android:textColor="@color/color_343434"
+        android:textSize="11dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_dddddd" />
+
+</RelativeLayout>

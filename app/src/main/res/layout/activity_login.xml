@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_efefef"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue"
+        android:theme="@style/AppTheme.ActionBar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/picture" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:background="@color/color_ffffff">
+
+        <TextView
+            android:id="@+id/tx_phone"
+            style="@style/EditTitleStyle"
+            android:text="手机号：" />
+
+        <EditText
+            android:id="@+id/ed_phone"
+            style="@style/EditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tx_phone"
+            android:hint="请输入手机号"
+            android:phoneNumber="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_alignLeft="@+id/tx_phone"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_line" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:background="@color/color_ffffff">
+
+        <TextView
+            android:id="@+id/tx_password"
+            style="@style/EditTitleStyle"
+            android:text="密    码：" />
+
+        <EditText
+            android:id="@+id/ed_password"
+            style="@style/EditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tx_password"
+            android:hint="请输入密码"
+            android:password="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_line" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bt_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/x30"
+        android:layout_marginTop="@dimen/y20"
+        android:text="忘记密码" />
+
+    <Button
+        android:id="@+id/bt_login"
+        style="@style/ThemeButtonStyle"
+        android:layout_marginTop="20dp"
+        android:text="登  录" />
+
+    <Button
+        android:id="@+id/bt_regist"
+        style="@style/ThemeButtonStyle"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_air_theme_shape"
+        android:text="注  册"
+        android:textColor="@color/theme_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/tx_login_tip"
+            android:background="@color/color_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/tx_login_tip"
+            android:background="@color/color_line" />
+
+        <TextView
+            android:id="@+id/tx_login_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="其他方式登录" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/bt_qq_login"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:layout_marginLeft="80dp"
+            android:background="@mipmap/qq" />
+
+        <Button
+            android:id="@+id/bt_weixin_login"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
+            android:background="@mipmap/wechat_login" />
+
+    </RelativeLayout>
+
+</LinearLayout>

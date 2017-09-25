@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_efefef"
+    tools:context="com.tiger.socol.gu.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/bottom_border_blue"
+        android:theme="@style/AppTheme.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_tsf_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y20"
+                android:background="@mipmap/banner">
+
+                <TextView
+                    android:id="@+id/tx_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_toEndOf="@+id/im_avatar"
+                    android:text="虎"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="20sp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/im_avatar"
+                    android:layout_width="@dimen/x120"
+                    android:layout_height="@dimen/x120"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="28dp"
+                    android:src="@mipmap/my_head_portrait"
+                    app:riv_corner_radius="@dimen/x70"
+                    app:riv_mutate_background="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x30"
+                    android:src="@mipmap/icon_enter" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_marginTop="@dimen/y20"
+                android:background="@color/color_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:background="@color/color_ffffff">
+
+                <TextView
+                    android:id="@+id/tv_setting_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:text="我的订单"
+                    android:textColor="@color/color_555555"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x30"
+                    android:src="@mipmap/icon_enter"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_line" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_dai"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:drawableTop="@mipmap/for_the_payment"
+                    android:paddingBottom="@dimen/y20"
+                    android:paddingTop="@dimen/y30"
+                    android:text="待支付"
+                    android:textColor="@color/color_555555"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/bt_fa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:drawableTop="@mipmap/to_send_the_goods"
+                    android:paddingBottom="@dimen/y20"
+                    android:paddingTop="@dimen/y30"
+                    android:text="待发货"
+                    android:textColor="@color/color_555555"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/bt_shou"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:drawableTop="@mipmap/receipt_of_goods"
+                    android:paddingBottom="@dimen/y20"
+                    android:paddingTop="@dimen/y30"
+                    android:text="待收货"
+                    android:textColor="@color/color_555555"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/bt_ping"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:drawableTop="@mipmap/to_evaluate"
+                    android:paddingBottom="@dimen/y20"
+                    android:paddingTop="@dimen/y30"
+                    android:text="待评价"
+                    android:textColor="@color/color_555555"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/bt_tui"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:drawableTop="@mipmap/refund"
+                    android:paddingBottom="@dimen/y20"
+                    android:paddingTop="@dimen/y30"
+                    android:text="退款/售后"
+                    android:textColor="@color/color_555555"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:background="@color/color_line" />
+
+            <com.tiger.socol.gu.views.widgets.MineSettingItemView
+                android:id="@+id/msiv_tsf_collect"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginTop="@dimen/y20"
+                app:itemIcon="@mipmap/mine_collection"
+                app:itemTitle="我的收藏"
+                app:showFullBottomLine="true"
+                app:showFullTopLine="true" />
+
+            <com.tiger.socol.gu.views.widgets.MineSettingItemView
+                android:id="@+id/msiv_tsf_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/msiv_tsf_collect"
+                android:layout_marginTop="@dimen/y20"
+                app:itemIcon="@mipmap/mine_modify_password"
+                app:itemTitle="修改密码"
+                app:showFullTopLine="true"
+                app:showMarginBottomLine="true" />
+
+            <com.tiger.socol.gu.views.widgets.MineSettingItemView
+                android:id="@+id/msiv_tsf_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/msiv_tsf_password"
+                app:itemIcon="@mipmap/mine_modify_phone_no"
+                app:itemTitle="修改绑定手机号"
+                app:showFullBottomLine="true" />
+
+            <com.tiger.socol.gu.views.widgets.MineSettingItemView
+                android:id="@+id/msiv_tsf_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/msiv_tsf_phone"
+                android:layout_marginTop="@dimen/y20"
+                app:itemIcon="@mipmap/mine_about_us"
+                app:itemTitle="关于我们"
+                app:showFullTopLine="true"
+                app:showMarginBottomLine="true" />
+
+            <com.tiger.socol.gu.views.widgets.MineSettingItemView
+                android:id="@+id/msiv_tsf_call"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/msiv_tsf_phone"
+                app:itemIcon="@mipmap/mine_contact_us"
+                app:itemTitle="联系我们"
+                app:showFullBottomLine="true" />
+
+            <Button
+                android:id="@+id/bt_logout"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_marginBottom="@dimen/y50"
+                android:layout_marginTop="@dimen/y60"
+                android:background="@color/color_ffffff"
+                android:text="退  出"
+                android:textColor="@color/theme_color" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

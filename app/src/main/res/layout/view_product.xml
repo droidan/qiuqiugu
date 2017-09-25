@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff">
+
+    <TextView
+        android:id="@+id/tx_porder_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/y13"
+        android:layout_toRightOf="@+id/im_product_thumb"
+        android:lines="2"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/tx_product_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im_product_thumb"
+        android:layout_alignLeft="@+id/tx_porder_title"
+        android:layout_toRightOf="@+id/im_product_thumb"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="11dp" />
+
+    <ImageView
+        android:id="@+id/im_product_thumb"
+        android:layout_width="@dimen/x169"
+        android:layout_height="@dimen/y127"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/y20"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tx_product_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tx_product_num"
+        android:layout_alignBottom="@+id/tx_product_num"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x20"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="11dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_below="@+id/im_product_thumb"
+        android:layout_marginTop="@dimen/y20"
+        android:background="@color/color_line" />
+
+</RelativeLayout>

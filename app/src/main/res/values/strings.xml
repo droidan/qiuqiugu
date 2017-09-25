@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">丘丘谷</string>.
+    <!--主界面-->
+    <string name="tab_lesson">首页</string>
+    <string name="tab_news">社区</string>
+    <string name="tab_shoppiing">购物车</string>
+    <string name="tab_setting">我的</string>
+</resources>

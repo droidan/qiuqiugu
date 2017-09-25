@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/color_line" />
+
+    <TextView
+        android:id="@+id/tx_porder_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/y13"
+        android:text="$28.99"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/tx_porder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/y13"
+        android:layout_toLeftOf="@+id/tx_porder_price"
+        android:layout_toRightOf="@+id/im_product_thumb"
+        android:lines="2"
+        android:text="Hello World!"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/tx_product_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im_product_thumb"
+        android:layout_alignLeft="@+id/tx_porder_title"
+        android:layout_toRightOf="@+id/im_product_thumb"
+        android:text="共1件商品"
+        android:textColor="@color/color_3f3f3f"
+        android:textSize="11dp" />
+
+    <ImageView
+        android:id="@+id/im_product_thumb"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y112"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginTop="@dimen/y20"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tx_product_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tx_product_num"
+        android:layout_alignBottom="@+id/tx_product_num"
+        android:layout_alignEnd="@+id/tx_porder_price"
+        android:text="等待到达"
+        android:textColor="#ff0000"
+        android:textSize="11dp" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_alignLeft="@+id/im_product_thumb"
+        android:layout_below="@+id/im_product_thumb"
+        android:layout_marginTop="@dimen/y20"
+        android:background="@color/color_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:layout_below="@+id/view_line">
+
+        <TextView
+            android:id="@+id/tx_order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="2013-10-10"
+            android:textColor="@color/color_b2b2b2"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/bt_buy_agin"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x130"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/y17"
+            android:layout_marginRight="@dimen/x20"
+            android:layout_marginTop="@dimen/y17"
+            android:background="@drawable/bt_menu_shape"
+            android:text="再来一单"
+            android:textColor="@color/theme_color"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/bt_more_menu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x130"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/y17"
+            android:layout_marginRight="@dimen/x20"
+            android:layout_marginTop="@dimen/y17"
+            android:layout_toLeftOf="@+id/bt_buy_agin"
+            android:background="@drawable/bt_menux_shape"
+            android:text="去评价"
+            android:textSize="10dp"
+            android:textColor="@color/color_343434" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_line" />
+
+</RelativeLayout>
